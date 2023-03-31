@@ -55,3 +55,8 @@ npx hardhat run scripts/deploy.ts
 - @openzeppelin/contracts-upgradeable
 
 - @openzeppelin/contracts
+
+# NOTE: Important
+folder lib has forge-std which is a git repository, cloning this may cause issues in pushing code to other repos
+first run ```forge forge test``` it will install forge-std
+then delete .git folder from this repo and lib/forge-std and push it again
