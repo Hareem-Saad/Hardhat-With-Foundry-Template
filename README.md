@@ -39,3 +39,19 @@ npx hardhat run scripts/deploy.ts
 12- Install forge-std```forge forge install foundry-rs/forge-std```
 
 13- Run ```shell npx hardhat init-foundry```
+
+# What is has
+
+- Hardhat
+
+- Foundry
+
+- @openzeppelin/hardhat-upgrades
+
+- @nomiclabs/hardhat-ethers ethers
+
+- dotenv
+
+- @openzeppelin/contracts-upgradeable
+
+- @openzeppelin/contracts
